@@ -1,0 +1,7 @@
+https://omegaup.com/arena/problem/Dados-apilados/#problems
+
+a=int(input())
+def cam(a):
+	return 14*a+1,14*a+6
+print(*cam(a))
+	

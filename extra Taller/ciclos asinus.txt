@@ -1,0 +1,10 @@
+https://omegaup.com/arena/problem/Practica-Ciclos-ASINUS/
+
+
+a=int(input())
+s=0
+while(a):
+  n=int(input())
+  s+=n
+  a-=1
+print(s)

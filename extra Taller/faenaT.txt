@@ -1,0 +1,7 @@
+https://omegaup.com/arena/problem/Faena-Triangular/#problems
+
+
+n=list(map(int,input().split()))
+def cam(n):
+	return n[0]*n[0]+n[1]*n[1]
+print(cam(n))

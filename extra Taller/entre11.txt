@@ -1,0 +1,11 @@
+https://omegaup.com/arena/problem/Divisibilidad-por-11/#problems
+
+
+a=int(input())
+def cam(n):
+	if(n%11==0): return "El número",n,"es divisible por 11"
+	return "El número",n,"no es divisible por 11"
+while (a):
+	n=int(input())
+	print(*cam(n))
+	a-=1

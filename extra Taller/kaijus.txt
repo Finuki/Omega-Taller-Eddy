@@ -1,0 +1,8 @@
+https://omegaup.com/arena/problem/Kaijus/#problems
+
+
+a=int(input())
+def ki(a,r=1,años=0):
+  if (a<r): return años+2018
+  return ki(a,r*2,años+1)
+print(ki(a))

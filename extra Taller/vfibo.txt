@@ -1,0 +1,8 @@
+https://omegaup.com/arena/problem/Generar-vector-Fibonacci/
+
+a=int(input())
+a=a-2
+def fibo(a,p1=1,p2=1,r=[1,1]):
+  if(a==0): return r
+  return fibo(a-1,p2,p1+p2,r+[p1+p2])
+print(*fibo(a))

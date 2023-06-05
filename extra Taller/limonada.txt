@@ -1,0 +1,10 @@
+https://omegaup.com/arena/problem/TiendaLimonada/#problems
+
+n =list(map(int,input().split()))
+
+def limo(n):
+	d=n[0]-n[1]
+	v=n[2]*n[3]
+	if(d+v>=n[4]): return "LIBRO"
+	return "LIMONADA"
+print(limo(n))

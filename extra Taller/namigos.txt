@@ -1,0 +1,15 @@
+https://omegaup.com/arena/problem/Numeros-Amigos/
+
+
+a,b=map(int,input().split())
+def suFap(n):
+  return 1+sa(2,n)
+def sa(i,n):
+  if(i*i>n): return 0
+  if(i*i==n): return i
+  if(n%i==0): return i+n//i +sa(i+1,n)
+  return sa(i+1,n)
+def am(a,b) :
+  if suFap(a)==b and suFap(b)==a: return "Es Amigo"
+  return "No es Amigo"
+print(am(a,b))

@@ -1,0 +1,13 @@
+https://omegaup.com/arena/problem/Cuantos-dias-tiene-febrero/#problems
+
+
+a=list(map(int,input().split()))
+def cam(a):
+	c=[]
+	for i in a:
+		if(i%4==0 and i%100>1 or i%4==0 and i%100==0 and i%400==0):
+			c.append(29)
+		else:
+			c.append(28)
+	return c
+print(*cam(a))
